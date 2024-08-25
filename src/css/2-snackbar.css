@@ -1,0 +1,120 @@
+/* Common styles */
+@import url('./reset.css');
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+.form [name="delay"] {
+  width: 360px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #808080;
+}
+
+.form [name="delay"]:hover,
+.form [name="delay"]:focus {
+  border-color: #000;
+}
+
+.form [name="delay"]:active {
+  border-color: #4e75ff;
+}
+
+fieldset {
+  box-sizing: border-box;
+  margin: 0 0 24px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  gap: 48px;
+  width: 360px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  stroke-width: 1px;
+  stroke: #808080;
+}
+
+fieldset:hover,
+fieldset:focus,
+fieldset:active {
+  border-color: #000;
+}
+
+legend {
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.64px;
+}
+
+/* fieldset label {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #2e2f42;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+fieldset label input {
+  border: 1px solid #757575;
+  border-radius: 14px;
+  width: 20px;
+  height: 20px;
+  border-image-source: url('/src/img/Enabled.svg');
+} */
+
+button {
+  display: flex;
+  width: 360px;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+}
+
+button:hover,
+button:focus {
+  background: #6c8cff;
+}
