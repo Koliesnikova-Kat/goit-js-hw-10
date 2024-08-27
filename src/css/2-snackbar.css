@@ -53,7 +53,7 @@ fieldset {
   align-items: start;
   gap: 48px;
   width: 360px;
-  height: 64px;
+  /* height: 64px; */
   flex-shrink: 0;
   border-radius: 4px;
   stroke-width: 1px;
@@ -75,7 +75,7 @@ legend {
   letter-spacing: 0.64px;
 }
 
-/* fieldset label {
+fieldset label {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -93,8 +93,7 @@ fieldset label input {
   border-radius: 14px;
   width: 20px;
   height: 20px;
-  border-image-source: url('/src/img/Enabled.svg');
-} */
+}
 
 button {
   display: flex;

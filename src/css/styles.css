@@ -8,3 +8,9 @@ body {
   gap: 32px;
   font-family: 'Montserrat', sans-serif;
 }
+
+.list {
+  padding: 16px;
+  text-align: center;
+  font-size: 24px;
+}

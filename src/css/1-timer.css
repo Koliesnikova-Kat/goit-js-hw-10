@@ -48,8 +48,8 @@ button {
   gap: 10px;
   border-radius: 8px;
   border: none;
-  background: #cfcfcf;
-  color: #989898;
+  background-color: #4e75ff;
+  color: #fff;
   width: 75px;
   height: 40px;
   font-size: 16px;
@@ -61,17 +61,13 @@ button {
 
 button:hover,
 button:focus {
-  background: #6c8cff;
-}
-
-button:active {
-  background: #4e75ff;
-  color: #fff;
+  background-color: #6c8cff;
 }
 
 button:disabled {
-  background: #cfcfcf;
+  background-color: #cfcfcf;
   color: #989898;
+  cursor: not-allowed;
 }
 
 .timer {
